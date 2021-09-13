@@ -1,0 +1,73 @@
+.container {
+  background: linear-gradient(
+    90deg,
+    rgba(69, 83, 82, 0.6) 0%,
+    rgba(151, 151, 151, 0.132) 100%
+  );
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.shop {
+  position: relative;
+  width: 100%;
+}
+
+.shop__ellipse {
+  position: absolute;
+  z-index: 0;
+}
+.shop__ellipse_first {
+  left: 0px;
+  top: 0px;
+}
+.shop__ellipse_second {
+  left: 0px;
+  top: 500px;
+}
+.shop__ellipse_third {
+  right: 0px;
+  top: 500px;
+  height: 400px ;
+  width: 280px;
+}
+.shop__ellipse_fourth {
+  right: 0px;
+  top: 175px;
+}
+.shop__ellipse_fifth {
+  right: 100px;
+  top: 0px;
+}
+.shop__logo_img {
+  position: absolute;
+  z-index: 1;
+  left: 30px;
+  top: 35px;
+}
+
+.shop__result-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 500px;
+}
+
+.shop__menu-item-count {
+  position: absolute;
+  top: -5px;
+  right: 2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #f9fe00;
+  font-family: "Biryani", sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: black;
+}
+.shop__menu-item-basket {
+  position: relative;
+}

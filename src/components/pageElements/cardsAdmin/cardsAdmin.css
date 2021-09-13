@@ -1,0 +1,155 @@
+.containerCards {
+  position: relative;
+  z-index: 1;
+  margin: auto;
+}
+.button-add {
+  width: 170px;
+  height: 41px;
+  background: #f3f638;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__dialog {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.modal__content {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  max-height: 95vh;
+  overflow-y: auto;
+}
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 20px;
+  color: #000;
+  opacity: 0.5;
+  font-weight: 700;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal__title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.modal__main-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.modal__input-container_row {
+  display: flex;
+  justify-content: space-between;
+}
+.modal__input-container{
+  margin: 0px 20px;
+}
+
+.modal__input {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 300px;
+  height: 30px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 16px;
+  outline: 0;
+  padding-left: 10px;
+}
+.modal__input_priceSegment {
+  display: flex;
+  align-items: center;
+}
+.modal__input_priceSegment input {
+  margin-top: 0px;
+  margin-left: 5px;
+}
+
+.modal__input_desc {
+  width: 100%;
+  height: 120px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  resize: none;
+}
+
+
+.modal__input_label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.modal__textarea-container{
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.modal__buttons {
+  display: flex;
+}
+
+.btn__modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #303030;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.error {
+  color: red;
+  margin-top: -20px;
+  display: none;
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.modal__content {
+  font-size: 16px;
+}

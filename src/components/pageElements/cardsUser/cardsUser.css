@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+.shop__cards {
+  width: 920px;
+  margin: auto;
+  min-height: 800px;
+  background: #ffffff;
+  border-radius: 30px 30px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+
+}
+.cards__item {
+  width: 277px;
+  height: 490px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  box-shadow: 4px 4px 8px 5px rgba(0, 0, 0, 0.25);
+  margin: 25px 10px 25px 15px;
+}
+.cards__item a:active,
+.cards__item a:visited,
+.cards__item a:link {
+  color: black;
+  text-decoration: none
+}
+
+.item__image {
+  width: 166.84px;
+  height: 302.78px;
+  margin: 25px 40px 20px 70px;
+}
+
+.item__name {
+  font-family: "Oswald", sans-serif;
+  width: 244.5px;
+  height: 45.42px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px 16px;
+  overflow-wrap: break-word ;
+}
+.item__container{
+  display: flex;
+}
+
+.item__price {
+  width: 75px;
+  height: 22px;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 30px;
+  margin-top: 43px;
+  margin-right: 13px;
+}
+.item__basket_limit{
+  width: 144px;
+  height: 41px;
+  font-weight: 600;
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+.item__button-basket {
+  width: 144px;
+  height: 41px;
+  background: #f3f638;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  border: none;
+  cursor: pointer;
+  margin-top: 33px;
+  font-family: 'Noto Sans', sans-serif;
+}
+.item__button-basket:active{
+  box-shadow: 0 3px 0 #f3f638;
+}
+
+.cards__notFound{
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.Toastify{
+  z-index: 2;
+}

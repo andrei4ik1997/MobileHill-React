@@ -1,0 +1,245 @@
+.product {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 52px;
+  width: 920px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 30px 30px 0px 0px;
+  padding: 10px 25px 25px 25px;
+}
+.product__header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.product__chapter {
+  width: 180px;
+  height: 27px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.product__name {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  text-transform: capitalize;
+  color: #000000;
+  overflow-wrap: break-word ;
+}
+
+.product__info-container {
+  display: flex;
+  padding-top: 35px;
+}
+
+.product__main-img {
+  width: 286px;
+  height: 413px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__picture {
+  width: 243px;
+  height: 360px;
+}
+.product__picture_little {
+  width: 50px;
+  height: 70px;
+}
+
+.product__little-img-container {
+  margin-top: 25px;
+  display: flex;
+}
+
+.product__little-img {
+  width: 63px;
+  height: 88px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.product__desc-container {
+  margin-left: 25px;
+  width: 100%;
+}
+
+.product__desc-title {
+  margin-top: 30px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+}
+.product__desc-characteristic {
+  margin-top: 26px;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.product__desc-characteristic-icon {
+  color: #ff0000;
+  margin-right: 12px;
+}
+.product__desc-characteristic-name {
+  width: 280px;
+}
+.product__desc-property-container {
+  margin-top: 40px;
+  display: flex;
+  font-family: "Biryani", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.product__desc-property-color {
+  width: 55%;
+}
+.product__desc-property-title {
+  font-family: "Biryani", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.product__desc-property-value {
+  margin-top: 25px;
+  font-weight: normal;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  line-height: 44px;
+  text-transform: capitalize;
+}
+.product__desc-property-value-color {
+  width: 43px;
+  height: 43px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  margin-right: 17px;
+}
+.product__desc-property-value-color_black {
+  border: 3px solid #ffffff;
+  background: #070c06;
+}
+.product__desc-property-value-color_green {
+  background: #337c62;
+}
+
+.product__desc-footer-container {
+  display: flex;
+  margin-top: 40px;
+}
+.product__desc-count {
+  width: 110px;
+  height: 24px;
+  background: rgba(243, 246, 56, 0.7);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product__desc-button {
+  margin-right: 88px;
+  width: 219px;
+  height: 41px;
+  background: #f3f638;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: "Noto Sans", sans-serif;
+}
+.product__desc-button:active{
+  box-shadow: 0 3px 0 #f3f638;
+}
+.product__desc-button_none {
+  visibility: hidden;
+}
+
+.product__basket_limit{
+  margin-right: 88px;
+  width: 219px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+}
+
+
+.product__back {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background: #f9fe00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product__header-container a:active,
+.product__header-container a:visited,
+.product__header-container a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.product__desc-footer-bonus {
+  font-family: "Roboto";
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.product__desc-footer-bonus_margin {
+  margin-left: 20px;
+}
+
+.product__info-description-container {
+  margin-top: 26px;
+  padding-left: 63px;
+  padding-right: 93px;
+}
+
+.product__info-description-title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+}
+.product__info-description {
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 10px;
+}

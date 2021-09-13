@@ -1,0 +1,41 @@
+.shop__sortPanel {
+  margin: auto;
+  margin-top: 24px;
+  display: flex;
+  width: 920px;
+  height: 28px;
+  align-items: center;
+  position: relative;
+  z-index: 1
+}
+
+.shop__sortPanel-title {
+  font-family: "Biryani", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  flex: none;
+}
+
+.shop__sortPanel-container {
+  display: flex;
+  margin-right: 38px;
+}
+.shop__sortPanel-checkbox {
+  margin-left: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+}
+.radio__label {
+  font-family: "Biryani", sans-serif;
+  margin-left: 12px;
+  height: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  text-decoration-line: underline;
+  cursor: pointer;
+}

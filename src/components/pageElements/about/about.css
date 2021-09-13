@@ -1,0 +1,172 @@
+.about {
+  position: relative;
+  z-index: 1;
+  width: 920px;
+  min-height: 800px;
+  margin: auto;
+  margin-top: 55px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 30px 30px 0px 0px;
+  padding-bottom: 135px;
+}
+
+.about__title {
+  position: relative;
+  width: 100%;
+  height: 285px;
+  font-family: "Biryani", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  color: #ffffff;
+  padding: 36px 0px 45px 50px;
+  background: linear-gradient(180deg, #aaf8f3 0%, rgba(9, 102, 96, 0.5) 100%);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.about__title-text {
+  width: 529px;
+}
+.about__title-logo1 {
+  position: absolute;
+  bottom: 0px;
+  right: 117px;
+}
+.about__title-logo2 {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+}
+.about__title-text-name{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  
+}
+
+.about__benefits {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  padding: 0px 35px;
+}
+.about__benefits-title {
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.about__benefits-items {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.about__benefits-item {
+  display: flex;
+  flex-direction: column;
+}
+.about__benefits-item-logo {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 218px;
+  height: 245px;
+}
+
+.about__benefits-item-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.about__benefits-item-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f9fe00;
+}
+.about__benefits-item-desc {
+  font-family: "Biryani", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: #000000;
+  margin-left: 10px;
+  width: 147px;
+}
+
+.about__subscribe {
+  margin-top: 100px;
+  width: 100%;
+  background: #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-left: none;
+  border-right: none;
+  display: flex;
+}
+.about__subscribe-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 24px 39px;
+  height: 122px;
+}
+
+.about__subscribe-title {
+  font-family: "Oxanium";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.about__subscribe-subscr {
+  margin-top: 7px;
+  width: 300px;
+  font-family: "Biryani", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+}
+.about__subscribe-input-container {
+  display: flex;
+  margin-top: 7px;
+}
+
+.about__subscribe-input {
+  width: 277px;
+  height: 34px;
+  background: rgba(169, 169, 169, 0.5);
+  border: none;
+  outline: none;
+  padding-left: 12px;
+  font-family: "Biryani", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.about__subscribe-input::-webkit-input-placeholder { color: white; }
+
+.about__subscribe-button {
+  width: 113px;
+  height: 34px;
+  background: #f3f638;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  margin-left: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  font-family: 'Noto Sans', sans-serif;
+}
