@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/MobileHill-React/static/css/main.f41715a0.chunk.css",
+    "main.js": "/MobileHill-React/static/js/main.c7e07301.chunk.js",
+    "main.js.map": "/MobileHill-React/static/js/main.c7e07301.chunk.js.map",
+    "runtime-main.js": "/MobileHill-React/static/js/runtime-main.36be68e9.js",
+    "runtime-main.js.map": "/MobileHill-React/static/js/runtime-main.36be68e9.js.map",
+    "static/css/2.0975cee1.chunk.css": "/MobileHill-React/static/css/2.0975cee1.chunk.css",
+    "static/js/2.7f6cf97d.chunk.js": "/MobileHill-React/static/js/2.7f6cf97d.chunk.js",
+    "static/js/2.7f6cf97d.chunk.js.map": "/MobileHill-React/static/js/2.7f6cf97d.chunk.js.map",
+    "index.html": "/MobileHill-React/index.html",
+    "static/css/2.0975cee1.chunk.css.map": "/MobileHill-React/static/css/2.0975cee1.chunk.css.map",
+    "static/css/main.f41715a0.chunk.css.map": "/MobileHill-React/static/css/main.f41715a0.chunk.css.map",
+    "static/js/2.7f6cf97d.chunk.js.LICENSE.txt": "/MobileHill-React/static/js/2.7f6cf97d.chunk.js.LICENSE.txt",
+    "static/media/Ellipse1.ccb908c4.png": "/MobileHill-React/static/media/Ellipse1.ccb908c4.png",
+    "static/media/Ellipse2.c35e8042.png": "/MobileHill-React/static/media/Ellipse2.c35e8042.png",
+    "static/media/Ellipse2.fac4e515.png": "/MobileHill-React/static/media/Ellipse2.fac4e515.png",
+    "static/media/Ellipse3.1de02644.png": "/MobileHill-React/static/media/Ellipse3.1de02644.png",
+    "static/media/Ellipse3.8f26f6a8.png": "/MobileHill-React/static/media/Ellipse3.8f26f6a8.png",
+    "static/media/Ellipse4.41973942.png": "/MobileHill-React/static/media/Ellipse4.41973942.png",
+    "static/media/Ellipse5.07248287.png": "/MobileHill-React/static/media/Ellipse5.07248287.png",
+    "static/media/contacts1.c625f222.png": "/MobileHill-React/static/media/contacts1.c625f222.png",
+    "static/media/contacts2.808f2d4a.png": "/MobileHill-React/static/media/contacts2.808f2d4a.png",
+    "static/media/delivery.d7e5613b.png": "/MobileHill-React/static/media/delivery.d7e5613b.png",
+    "static/media/items.89a56f3f.png": "/MobileHill-React/static/media/items.89a56f3f.png",
+    "static/media/logo.983a0331.png": "/MobileHill-React/static/media/logo.983a0331.png",
+    "static/media/sales.c258539d.png": "/MobileHill-React/static/media/sales.c258539d.png",
+    "static/media/subscribe.f3591ebf.png": "/MobileHill-React/static/media/subscribe.f3591ebf.png",
+    "static/media/title1.808f2d4a.png": "/MobileHill-React/static/media/title1.808f2d4a.png",
+    "static/media/title2.c625f222.png": "/MobileHill-React/static/media/title2.c625f222.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36be68e9.js",
+    "static/css/2.0975cee1.chunk.css",
+    "static/js/2.7f6cf97d.chunk.js",
+    "static/css/main.f41715a0.chunk.css",
+    "static/js/main.c7e07301.chunk.js"
+  ]
+}
