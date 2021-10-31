@@ -2,10 +2,6 @@
 
 You can visite Mobile Hill
 
-https://mobile-hill-react.vercel.app/
-
-OR
-
 https://andrei4ik1997.github.io/MobileHill-React/
 
 ## Authorization
