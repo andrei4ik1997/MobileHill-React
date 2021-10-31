@@ -5,7 +5,7 @@ export const users = [
       type: "user",
     },
     {
-      login: "Andrei030797",
+      login: "user",
       password: "12345678",
       type: "user",
     },
